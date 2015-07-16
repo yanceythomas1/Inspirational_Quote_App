@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<% if @quote1.category == "sports" %> 
+  <% if @quote1.answer == "injury" %>
+     “Champions keep playing until they get it right" - Billie Jean King
+  <% elsif  @quote1.answer == "poor play" %>
+    "You miss one hundred percent of the shots you do not take” - Wayne Gretzky 
+  <% elsif @quote1.answer == "lose" %>
+    “Never give up! Failure and rejection are only the first step to succeeding” - Jim Valvano
+  <% end %>
+<% end %>
+
+<% if @quote1.category == "family" %>
+ <% if @quote1.answer == "loyalty" %>
+    "Faithless is he that says farewell when the road darkens.” - J.R.R. Tolkien
+ <% elsif @quote1.answer == "death" %>
+    “Grief knits two hearts in closer bonds that happiness ever can and common sufferings are far stronger links than common joys." –Alphonse de Lamartine
+ <% elsif @quote1.answer == "member" %>
+    “Going home and spending time with your family and your real friends keeps you grounded” -  Jennifer Ellison  
+  <% end %>
+<% end %>

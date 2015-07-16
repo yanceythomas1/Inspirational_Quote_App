@@ -17,5 +17,7 @@ class MyApp < Sinatra::Base
     puts @quote1.answer
     erb :quote
   end
-
+  get '/family' do 
+    erb :family
+  end 
 end
