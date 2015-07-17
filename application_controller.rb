@@ -23,8 +23,7 @@ class MyApp < Sinatra::Base
   get '/school' do
     erb :school
   end 
-  get '/rerelationships'
-    erb :relationships
-  end 
-  end 
+  get '/relationship' do
+    erb :relationship
+  end  
 end
