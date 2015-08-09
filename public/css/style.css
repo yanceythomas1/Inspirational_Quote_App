@@ -1,20 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
-h1 {
-  color: white;
-  font-family: 'Lobster Two', cursive;
-  text-shadow: 2px 2px black;
-}
+
 body {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   background-image: url("../images/dat_sunset_doe.jpg");
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Arial';
   background-size:cover;
   text-shadow: 2px 2px black;
 }
 a {
   color: white;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Arial';
   text-shadow: 2px 2px black;
 }
