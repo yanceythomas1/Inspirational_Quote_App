@@ -52,7 +52,21 @@
 <img src="http://www.qotd.org/portraits/Forbes,Malcolm.jpg" alt="rss feed" width="400" height="550"><br>
 <% end %>
 <% end %>
+
+<% if @quote1.category == "peer_pressure" %>
+<% if @quote1.answer == "" %>
+ <br>
+<img src="" alt="rss feed" width="" height="">
+<% elsif @quote1.answer == "" %>
+<br>
+<img src="" alt="rss feed" width="" height="">
+<% elsif @quote1.answer == "" %>
+<br>
+<img src="" alt="rss feed" width="" height=""><br>
+<% end %>
+<% end %>
 <a href="/">Start Over</a><br><br>
+
 
 
 

@@ -26,4 +26,7 @@ class MyApp < Sinatra::Base
   get '/relationship' do
     erb :relationship
   end  
+  get '/peer_pressure' do
+    erb :peer_pressure
+  end
 end
